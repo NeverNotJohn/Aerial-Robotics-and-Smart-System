@@ -1,4 +1,10 @@
-# rp2040-freertos-template
-This is a template project for developing FreeRTOS based applications on Raspberry Pi RP2040 based boards. This template uses the "official" RP2040 port from the Raspberry Pi Foundation. My previous repo used the generic Cortex M0 port so this one corrects that. Previous Repo retained as tutorials rely on it. 
+# Aerial Robotics and Smart System
+> Robotics research at California State University, Fresno, under Dr. Shuo Wu and Dr. Nan Wang
 
-Unmodified, this project will spawn a single task to rapidly blink the LED on and off.
+Student Team:
+- Drake
+- Lawrence
+- Adam
+- John
+- Joseph
+  
