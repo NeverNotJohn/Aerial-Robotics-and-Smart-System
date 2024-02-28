@@ -8,7 +8,10 @@ target_include_directories(${ProjectName} PRIVATE
 
 target_link_libraries(${ProjectName} 
     pico_stdlib 
+    hardware_pwm
     FreeRTOS-Kernel-Heap4 
+    pico_binary_info
+    hardware_i2c
     )
 
 pico_add_extra_outputs(${ProjectName})
