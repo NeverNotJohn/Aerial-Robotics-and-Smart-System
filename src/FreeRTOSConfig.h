@@ -66,6 +66,7 @@
 #define configNUM_THREAD_LOCAL_STORAGE_POINTERS 5
 
 /* System */
+#define configUSE_PASSIVE_IDLE_HOOK 0           // or 1 if you want to use the idle task hook function
 #define configSTACK_DEPTH_TYPE                  uint32_t
 #define configMESSAGE_BUFFER_LENGTH_TYPE        size_t
 
@@ -104,7 +105,7 @@
 
 #if FREE_RTOS_KERNEL_SMP // set by the RP2040 SMP port of FreeRTOS
 /* SMP port only */
-#define configNUMBER_OF_CORES                   1
+#define configNUMBER_OF_CORES                   2
 #define configTICK_CORE                         0
 #define configRUN_MULTIPLE_PRIORITIES           1
 #define configUSE_CORE_AFFINITY                 1
