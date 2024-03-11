@@ -18,7 +18,8 @@ Now do this video
 
 ## Step 3:
 2. Open directory that contains pico-sdk on the terminal (if you follow the video it should be C:\pico)
-3. run command "git clone --recurse-submodules https://github.com/NeverNotJohn/Aerial-Robotics-and-Smart-System"
+3. run command
+<br> <br> git clone --recurse-submodules https://github.com/NeverNotJohn/Aerial-Robotics-and-Smart-System <br> <br>
 
 ## Step 4:
 Profit
