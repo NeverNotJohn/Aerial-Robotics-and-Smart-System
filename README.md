@@ -17,8 +17,7 @@ Follow this video
 Now do this video
 
 ## Step 3:
-1. Create project folder in the same directory as pico-sdk
-2. Open project directory on the terminal
+2. Open directory that contains pico-sdk on the terminal (if you follow the video it should be C:\pico)
 3. run command "git clone --recurse-submodules https://github.com/NeverNotJohn/Aerial-Robotics-and-Smart-System"
 
 ## Step 4:
