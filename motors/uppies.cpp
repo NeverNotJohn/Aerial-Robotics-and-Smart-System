@@ -1,6 +1,25 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 
+
+// Motor pins
+const int MOTOR_0_A = 1;
+const int MOTOR_0_B = 2;
+const int MOTOR_45_A = 4;
+const int MOTOR_45_B = 5;
+const int MOTOR_90_A = 6;
+const int MOTOR_90_B = 7;
+const int MOTOR_135_A = 9;
+const int MOTOR_135_B = 10;
+const int MOTOR_180_A = 11;
+const int MOTOR_180_B = 12;
+const int MOTOR_225_A = 14;
+const int MOTOR_225_B = 15;
+const int MOTOR_270_A = 16;
+const int MOTOR_270_B = 17;
+const int MOTOR_315_A = 19;
+const int MOTOR_315_B = 20;
+
 int main() {
 
     // Initialize pins
@@ -9,23 +28,6 @@ int main() {
     // B = counterclockwise 
 
     stdio_init_all();
-
-    const int MOTOR_0_A = 1;
-    const int MOTOR_0_B = 2;
-    const int MOTOR_45_A = 4;
-    const int MOTOR_45_B = 5;
-    const int MOTOR_90_A = 6;
-    const int MOTOR_90_B = 7;
-    const int MOTOR_135_A = 9;
-    const int MOTOR_135_B = 10;
-    const int MOTOR_180_A = 11;
-    const int MOTOR_180_B = 12;
-    const int MOTOR_225_A = 14;
-    const int MOTOR_225_B = 15;
-    const int MOTOR_270_A = 16;
-    const int MOTOR_270_B = 17;
-    const int MOTOR_315_A = 19;
-    const int MOTOR_315_B = 20;
 
     gpio_init(MOTOR_0_A);
     gpio_init(MOTOR_0_B);
