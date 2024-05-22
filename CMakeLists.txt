@@ -22,6 +22,7 @@ pico_sdk_init()
 # Kinda self Explanatory ngl
 add_subdirectory(src)
 add_subdirectory(mpu)
+add_subdirectory(motors)
 
 # When adding more subdirectories, copy a previous folder and change CMakeList.txt with new project name
 
