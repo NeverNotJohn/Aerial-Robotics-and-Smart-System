@@ -27,3 +27,15 @@ git clone --recurse-submodules https://github.com/NeverNotJohn/Aerial-Robotics-a
 
 ## Step 4:
 Profit
+
+# Materials and Data Sheet
+
+## L298N Dual H-Bridge Motor Driver
+- Motor H bridge drive
+- Data Sheet: https://www.handsontec.com/dataspecs/L298N%20Motor%20Driver.pdf
+
+## Rasberry Pi Pico
+- Sub module for direct control over movement and sensors
+- Data Sheet: https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf 
+
+
