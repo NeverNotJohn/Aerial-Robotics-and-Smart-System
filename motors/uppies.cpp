@@ -38,10 +38,6 @@ int main() {
         uint16_t pwm_value = (adc_read() * 50)/417 + 490;
 
         // Set the PWM duty cycle
-        pwm_set_gpio_level(PWM_PIN, pwm_value);
-
-        // Wait a bit before the next reading
-        sleep_ms(10);
     }
 
     return 0;

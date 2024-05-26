@@ -12,6 +12,7 @@ target_link_libraries(motors
     FreeRTOS-Kernel-Heap4 
     pico_binary_info
     hardware_i2c
+    hardware_adc
     )
 
 pico_add_extra_outputs(motors)
