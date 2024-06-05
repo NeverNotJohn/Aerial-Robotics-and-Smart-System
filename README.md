@@ -35,8 +35,11 @@ Profit
 - Data Sheet: https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
 
 ## TAROT Brushless Motor
-
 - Main Drone Motors
 - Data Sheet: http://www.tarotrc.com/Product/Detail.aspx?Lang=en&Id=fcb5418d-1cf4-4c28-86fd-5a0de9967f03 
+
+## MPU-6000
+- Output goes into raspberry pi pico
+- Data Sheet: https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf
 
 
